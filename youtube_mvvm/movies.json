@@ -1,8 +1,53 @@
-//
-//  movies.json
-//  youtube_mvvm
-//
-//  Created by neta yamin on 04/03/2021.
-//
-
-import Foundation
+[{
+    "id": "4d52c7e6e426007ba5000015",
+    "title": "Fantastic Streamio Video",
+    "tags": ["Sports", "HD"],
+    "description": "A text describing the video...",
+    "aspect_ratio_multiplier": 1.7777777777777777,
+    "duration": 14.1,
+    "image_id": null,
+    "plays": 51,
+    "state": "ready",
+    "progress": 1.0,
+    "updated_at": "2011-02-10T14:37:42Z",
+    "created_at": "2011-02-09T16:59:18Z",
+    "original_video": {
+        "http_uri": "d253c4ja9jigvu.cloudfront.net/original_videos/4c50424cb35ea827c0000005_4d52c7e6e426007ba5000015.mp4",
+        "size": 1974173
+    },
+    "transcodings": [{
+            "id": "4d52c7e6e426007ba5000017",
+            "title": "Streamio SD 480p",
+            "size": 861008,
+            "state": "ready",
+            "progress": 1.0,
+            "http_uri": "d253c4ja9jigvu.cloudfront.net/videos/4c50424cb35ea827c0000005_4d52c7e6e426007ba5000015_streamio-sd-480p.mp4",
+            "rtmp_uri": "s1li48qzf9z15e.cloudfront.net/cfx/st/videos/4c50424cb35ea827c0000005_4d52c7e6e426007ba5000015_streamio-sd-480p.mp4",
+            "rtmp_base_uri": "s1li48qzf9z15e.cloudfront.net/cfx/st",
+            "rtmp_stream_uri": "mp4:videos/4c50424cb35ea827c0000005_4d52c7e6e426007ba5000015_streamio-sd-480p.mp4",
+            "width": 640,
+            "height": 360,
+            "bitrate": 938
+        },
+        {
+            "id": "4d52c7e6e426007ba5000018",
+            "title": "Streamio HD 720p",
+            "size": 2067134,
+            "state": "ready",
+            "progress": 1.0,
+            "http_uri": "d253c4ja9jigvu.cloudfront.net/videos/4c50424cb35ea827c0000005_4d52c7e6e426007ba5000015_streamio-hd-720p.mp4",
+            "rtmp_uri": "s1li48qzf9z15e.cloudfront.net/cfx/st/videos/4c50424cb35ea827c0000005_4d52c7e6e426007ba5000015_streamio-hd-720p.mp4",
+            "rtmp_base_uri": "s1li48qzf9z15e.cloudfront.net/cfx/st",
+            "rtmp_stream_uri": "mp4:videos/4c50424cb35ea827c0000005_4d52c7e6e426007ba5000015_streamio-hd-720p.mp4",
+            "width": 1280,
+            "height": 720,
+            "bitrate": 1992
+        }
+    ],
+    "screenshot": {
+        "original": "d253c4ja9jigvu.cloudfront.net/images/4c50424cb35ea827c0000005_4d52c7e6e426007ba500001a_original.jpg",
+        "normal": "d253c4ja9jigvu.cloudfront.net/images/4c50424cb35ea827c0000005_4d52c7e6e426007ba500001a_normal.jpg",
+        "thumb": "d253c4ja9jigvu.cloudfront.net/images/4c50424cb35ea827c0000005_4d52c7e6e426007ba500001a_thumb.jpg"
+    },
+    "account_id": "4c50424cb35ea827c0000005"
+}]
